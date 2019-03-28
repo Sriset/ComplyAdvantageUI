@@ -3,7 +3,7 @@ How to Run ComplyAdvantage :
 Steps:
 Step 1: Clone ComplyAdvantage repository from below Github path
 
-https://github.com.sriset/ComplyAdvantage.git
+https://github.com.Sriset/ComplyAdvantageUI.git
 
 Step 2: Once the repository is available on local system, run the feature file using any IDE
 For example, using IntelliJ IDE, go to TestRunner Class(src>test>java>ComplyAdvantage). Right click
