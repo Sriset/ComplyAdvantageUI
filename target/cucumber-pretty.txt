@@ -1,0 +1,22 @@
+Feature: As a user I should be able to add politician details to a database in http://ec2-34-251-162-89.eu-west-1.compute.amazonaws.com/
+
+  @AddNewEntity
+  Scenario: To verify user should be able to add politician details to a database [90m# src/test/java/Resources/AddPolitician.feature:4[0m
+    [32mGiven [0m[32muser is on the given webpage[0m                                            [90m# MyStepdefs.userIsOnTheGivenWebpage()[0m
+    [32mWhen [0m[32muser enter the name[0m                                                      [90m# MyStepdefs.userEnterTheName()[0m
+    [32mAnd [0m[32muser enter the country[0m                                                    [90m# MyStepdefs.userEnterTheCountry()[0m
+    [32mAnd [0m[32muser enter the year of birth[0m                                              [90m# MyStepdefs.userEnterTheYearOfBirth()[0m
+    [32mAnd [0m[32muser enter the position[0m                                                   [90m# MyStepdefs.userEnterThePosition()[0m
+    [32mAnd [0m[32muser enter source info URL[0m                                                [90m# MyStepdefs.userEnterSourceInfoURL()[0m
+    [32mAnd [0m[32muser enter risk level[0m                                                     [90m# MyStepdefs.userEnterRiskLevel()[0m
+    [32mAnd [0m[32muser click the save button[0m                                                [90m# MyStepdefs.userClickTheSaveButton()[0m
+    [31mThen [0m[31muser should check the confirm details[0m                                    [90m# MyStepdefs.userShouldCheckTheConfirmDetails()[0m
+      [31mjava.lang.AssertionError: expected [Barry Gardner] but found []
+      	at org.testng.Assert.fail(Assert.java:97)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+      	at org.testng.Assert.assertEquals(Assert.java:118)
+      	at org.testng.Assert.assertEquals(Assert.java:575)
+      	at org.testng.Assert.assertEquals(Assert.java:585)
+      	at ComplyAdvantageUI.MyStepdefs.userShouldCheckTheConfirmDetails(MyStepdefs.java:103)
+      	at ✽.Then user should check the confirm details(src/test/java/Resources/AddPolitician.feature:14)
+      [0m

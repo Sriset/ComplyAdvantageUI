@@ -1,0 +1,137 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "To verify user should be able to add politician details to a database",
+        "description": "",
+        "id": "as-a-user-i-should-be-able-to-add-politician-details-to-a-database-in-http://ec2-34-251-162-89.eu-west-1.compute.amazonaws.com/;to-verify-user-should-be-able-to-add-politician-details-to-a-database",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24435431033,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the given webpage",
+            "match": {
+              "location": "MyStepdefs.userIsOnTheGivenWebpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 901924264,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter the name",
+            "match": {
+              "location": "MyStepdefs.userEnterTheName()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 404414117,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter the country",
+            "match": {
+              "location": "MyStepdefs.userEnterTheCountry()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 324721280,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter the year of birth",
+            "match": {
+              "location": "MyStepdefs.userEnterTheYearOfBirth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 406646775,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter the position",
+            "match": {
+              "location": "MyStepdefs.userEnterThePosition()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 678624688,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enter source info URL",
+            "match": {
+              "location": "MyStepdefs.userEnterSourceInfoURL()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 484708891,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enter risk level",
+            "match": {
+              "location": "MyStepdefs.userEnterRiskLevel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 170308068,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click the save button",
+            "match": {
+              "location": "MyStepdefs.userClickTheSaveButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93809055,
+              "error_message": "java.lang.AssertionError: expected [Barry Gardner] but found []\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:575)\r\n\tat org.testng.Assert.assertEquals(Assert.java:585)\r\n\tat ComplyAdvantageUI.MyStepdefs.userShouldCheckTheConfirmDetails(MyStepdefs.java:103)\r\n\tat ✽.Then user should check the confirm details(src/test/java/Resources/AddPolitician.feature:14)\r\n",
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "user should check the confirm details",
+            "match": {
+              "location": "MyStepdefs.userShouldCheckTheConfirmDetails()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@AddNewEntity"
+          }
+        ]
+      }
+    ],
+    "name": "As a user I should be able to add politician details to a database in http://ec2-34-251-162-89.eu-west-1.compute.amazonaws.com/",
+    "description": "",
+    "id": "as-a-user-i-should-be-able-to-add-politician-details-to-a-database-in-http://ec2-34-251-162-89.eu-west-1.compute.amazonaws.com/",
+    "keyword": "Feature",
+    "uri": "src/test/java/Resources/AddPolitician.feature"
+  }
+]
